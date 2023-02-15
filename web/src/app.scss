@@ -1,0 +1,33 @@
+@use 'material-icons/iconfont/filled.css';
+@use '@fontsource/roboto';
+@use '@fontsource/jetbrains-mono';
+@use '@material/typography/mdc-typography';
+@use '@material/typography';
+@use '@material/elevation/styles';
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    @include typography.typography('body1');
+}
+
+code,
+pre {
+    font-family: 'JetBrains Mono', 'Roboto Mono', monospace;
+}
+b,
+strong {
+    font-weight: bold;
+}
+
+.mdc-circular-progress {
+    width: 2rem;
+    height: 2rem;
+}
