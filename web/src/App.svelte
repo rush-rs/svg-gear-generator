@@ -22,15 +22,15 @@
 
     const settings = {
         ...{
-            svgRadius: 90,
-            svgInnerRadius: 45,
+            svgRadius: 100,
+            svgInnerRadius: 40,
             svgCenterX: 100,
             svgCenterY: 100,
-            svgRotation: 0,
-            svgGrooveCount: 10,
-            svgGrooveDepth: 0.4,
-            svgWidthProportion: 0.2,
-            svgCutoff: 4,
+            svgRotation: 225,
+            svgGrooveCount: 8,
+            svgGrooveDepth: 0.45,
+            svgWidthProportion: 0.3,
+            svgCutoff: 6,
             svgPrecision: 3,
         },
         ...JSON.parse(window.localStorage.getItem('settings') || '{}'),
